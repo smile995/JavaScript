@@ -18,13 +18,15 @@ console.log(seller_Give);
 
 // practice_problem 2:find the avarage mark
 var math=75.25;
-var biology=65.85;
-var chemestry=35.45;
+var biology=65;
+var chemestry=80;
+var physics=35.45;
 var bangla=99.50;
-var totalMark=math+biology+chemestry+bangla;
+var totalMark=math+biology+chemestry+ physics+ bangla;
 console.log(totalMark);
-var avarageMark=totalMark/4;
-console.log(avarageMark );
+var avarageMark=totalMark/5;
+var avarageTwoPosition=avarageMark.toFixed(2);
+console.log(avarageTwoPosition );
 
 // practice_problem3: summation of string
 var going="I am going to be";
@@ -38,3 +40,6 @@ var mark=119;
 var divider=5;
 var reminder=mark%divider;
 console.log(reminder);
+
+
+if
